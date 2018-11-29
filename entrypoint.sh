@@ -4,4 +4,5 @@ do if [ -x /etc/init.d/${file} ];  then
 fi done
 crond
 bt default
+/usr/sbin/init
 tail -f /dev/null
